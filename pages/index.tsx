@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       }
 
   return (
-    <div className="pt-12">
+    <div className="py-12">
       <main>
         <h1 className="text-2xl sm:text-3xl font-bold text-center my-5">NASA API APP 🚀✨</h1>
         <div>
