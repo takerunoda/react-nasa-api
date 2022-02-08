@@ -31,8 +31,8 @@ const Home: NextPage = () => {
         <h1 className="text-2xl sm:text-3xl font-bold text-center my-5">NASA API APP 🚀✨</h1>
         <div>
           <div className="my-5">
-            <h2 className="text-blue-900 text-lg sm:text-xl font-bold text-center my-1">クリックすると、</h2>
-            <h2 className="text-blue-900 text-lg sm:text-xl font-bold text-center my-1">NASA APIから取得したデータが表示されます。</h2>
+            <h2 className="text-blue-900 text-lg sm:text-xl font-bold text-center my-1"><p>クリックすると、</p>
+            <p>NASA APIから取得したデータが表示されます。</p></h2>
           </div>
           <ul className="text-center">
             <li>
