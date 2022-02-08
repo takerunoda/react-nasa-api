@@ -11,10 +11,11 @@ interface FucntionProsps {
 
 
 const Home: NextPage = () => {
+      
       const [searchItems, setSearchItems] = useState<any[] | null>(null)
-      const nasaUrl = `https://images-api.nasa.gov/search?q=`
+      const nasaUrl = process.env.NEXT_PUBLIC_NASA_URL
       const handleSearch = async ({query}: FucntionProsps) =>{
-          const url = `${nasaUrl}${escape(query)}`
+          const url = nasaUrl && `${nasaUrl}${escape(query)}`
           const response = 
           await axios({
               method: 'GET',
